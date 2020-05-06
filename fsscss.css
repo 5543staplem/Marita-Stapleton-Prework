@@ -1,0 +1,36 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+h3{
+        
+ 
+    margin: auto;
+    width: 20%;
+    border: 2px solid #FFFFFF;
+    padding: 10px;
+    font-size: smaller;
+
+
+
+}
+h6{
+    padding-top: 120px;
+}
+h1{
+    font-size: 50px;
+}
+p,h3,h1{
+    color: #FFFFFF;
+}
+
+P,h1{
+    font-family: Georgia;
+}
+h6,h3{
+    font-family: Arial;
+}
+body {
+   
+    background-color: #79B9C6;
+}
