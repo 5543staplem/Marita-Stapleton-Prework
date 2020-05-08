@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coding Boot Camp!</title>
+
+  <!-- We link our html to the Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body >
+
+  <!-- Container Div -->
+  <div class="container">
+
+    <!-- Section 1: Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+
+      <!-- Our brand / logo -->
+      <a class="navbar-brand bg-info mx-auto text-center text-light" style="width: 200px;" href="#">Marita Stapleton</a>
+
+    
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <!-- Collapsible button -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+
+          <!-- The links of our navbar -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          
+
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Jumbotron element -->
+    <div  >
+      <!-- centered text -->
+      <h1 class="border-bottom  border-dark"<strong>About Marita!</strong></h1>
+    </div>
+
+    <div class="row">
+
+        <!-- At large+ screens takes up half width (6/12) -->
+        <div class="col-lg-3">
+  
+          <!-- centered image with thumbnail rules -->
+          <img class="img thumbnail center-block" src="data:image/jpeg;base64,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" alt="MaritaStapletonProfilePic" width="90%">
+         
+        </div>
+  
+        <!-- At large+ screens takes up half width (6/12) -->
+        <div class="col-lg-9">
+          
+          <p width=100%> Marita Stapleton favorite class for her final semester at Marquette Univeristy was Machiene learning. There she learned about generative text, what follow is what happens when you type "Marita traveled" into talk to transformer. </p><p> Marita  traveled to Beirut to begin some research on a book she is writing about the ban and does not want to be identified, at least yet. She is one of more than 2,000 students at the Texas A&M who are barred from entering the U.S. under the same State Department policy that affects refugees, except for those with refugee status in the U.S. and lawful permanent residence.
+
+            As a student studying sociology and political science at Texas A&M, Marita was scheduled to start classes on March 31. She couldn't transfer her credits and the final deadline for application to the university is April 1. Marita was forced to miss her semester and fears losing the rights that let her attend school here. School was conducted under the guidance of: Dr. Victor Valentine/: Dr. Carlos Sadato/: Dr. Jose Margulies. </p>
+            
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+    <p>That was an odd paragraph written by artifical intelligence. Gramatically it make sense but it sounds like pure nonesense. Oddly enough one of Marita Stapleton favorite bands is called Beirut, which she has enjoyed listening to while working on Genesis 10's modules.</p>
+</div> 
+
+</div>
+<footer class="text-center text-light bg-dark border-top  border-info" ><br>Copyright</footer>
+    </div>
+ 
+    
+    <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
