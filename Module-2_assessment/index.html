@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Hangman!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <body>
+        <h1 class="view text-center text-light" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">Hangman! Tree Version</h1>
+   
+              
+                <h2 class="text-center">Press any key to get started!</h2></br>
+                     
+                <h3>Wins:</h3>
+                <span id="winstracker"></span>
+               
+                <h3>Current Word</h3>
+                <h3 id="currentword" >_ _ _ _ _</h3>
+                    
+                <h3>Number of guesses remaining:</h3></br>
+                <span id="guessesremaining"></span></br></br>
+                <h3>Letters Already Guessed:</h3></br>
+                <span id="playerguesses"></span>
+             
+                <h6 class="text-right text-danger">If the website won't let you enter letters after launching, refresh to activate</h6>
+       
+        <script src="assets/javascript/game.js"></script>
+
+    </body>
+
+</html>
